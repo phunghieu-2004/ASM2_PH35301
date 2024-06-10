@@ -1,0 +1,22 @@
+{
+    "name": "acer/asm2_ph35301",
+    "autoload": {
+        "psr-4": {
+            "Acer\\Asm2Ph35301\\": "src/"
+        },
+        "files": ["helper.php"]
+    },
+    "authors": [
+        {
+            "name": "phunghieu-2004",
+            "email": "phieu9452@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.6",
+        "doctrine/dbal": "^4.0",
+        "eftec/bladeone": "^4.13",
+        "rakit/validation": "^1.4"
+    }
+}
